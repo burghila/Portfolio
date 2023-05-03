@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alin Burghila - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+   <section id="contact-page">
+    <h1>Contact Me</h1>
+    <div class="contact-container">
+        <p>If you have a project you would like to discuss or if you just want to say hello, please fill out the form below and I'll get back to you as soon as possible.</p>
+        <form action="submit-form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2023 Alin Burghila</p>
+    </footer>
+</body>
+</html>
